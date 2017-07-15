@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	display:flex;
+	padding:30px;
+}
+#bar
+{	margin-top:600px;
+	margin-left:-50px;
+	position: absolute;
+	border: 5px solid #828181;
+	height: 5px;
+	width: 1489px;
+}
+
+h1,p	
+{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
