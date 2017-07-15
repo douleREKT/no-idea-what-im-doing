@@ -6,17 +6,40 @@ body
 	display:flex;
 	padding:30px;
 }
-#bar
-{	margin-top:600px;
-	margin-left:-50px;
-	position: absolute;
-	border: 5px solid #828181;
+.bar
+{	margin-top: 550px;
+	margin-left:-1200px;
+	position:relative;
+	border: 1px solid #CECECE;
+	background-color:#CECECE;
 	height: 5px;
-	width: 1489px;
+	width: 1200px;
 }
 
-h1,p	
+h1
 {
+
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.pic1 img
+{
+	float:left;
+	margin: 0 0 10px 20px;
+}
+.pic2 img
+{
+	position:relative;
+	float:left;
+}
+
+.content2
+{
+	position:absolute;
+	margin-top:600px;
+	float:left;
+}
+.content2 h1
+{
+	clear:right;
+}
