@@ -4,6 +4,7 @@
 body
 {
 	display:flex;
+	justify-content:center;
 	padding:30px;
 }
 .bar
@@ -36,10 +37,13 @@ h1
 .content2
 {
 	position:absolute;
-	margin-top:600px;
-	float:left;
+	top:600px;
+
 }
-.content2 h1
+.content2 h1 ,p
 {
 	clear:right;
+	top:600px;
+	float:left;
+	margin: 10px 10px 10px 10px;
 }
