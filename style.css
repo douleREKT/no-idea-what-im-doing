@@ -9,12 +9,14 @@ body
 }
 .bar
 {	margin-top: 550px;
-	margin-left:-1200px;
-	position:relative;
+	
+	position:absolute;
 	border: 1px solid #CECECE;
 	background-color:#CECECE;
 	height: 5px;
-	width: 1200px;
+	width:1200px;
+	
+	
 }
 
 h1
@@ -42,8 +44,12 @@ h1
 }
 .content2 h1 ,p
 {
+	padding:20px;
 	clear:right;
 	top:600px;
 	float:left;
 	margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 1920px){
 }
